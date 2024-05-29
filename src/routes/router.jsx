@@ -12,6 +12,7 @@ import UpdateFood from "../pages/UpdateFood";
 import ViewFood from "../pages/ViewFood";
 import AvailableFoods from "../pages/AvailableFoods";
 import MyRequestedFoods from "../pages/MyRequestedFoods";
+import MyRequests from "../pages/MyRequests";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +88,12 @@ const router = createBrowserRouter([
         element: <PrivateRoute><MyRequestedFoods></MyRequestedFoods></PrivateRoute>,
         loader: ({params}) => fetch(`https://bliss-bite-server.vercel.app/my-requested-foods/${params.email}` ),
       },
+      {
+        path: "/requests/:email",
+        element: <PrivateRoute><MyRequests></MyRequests></PrivateRoute>,
+        loader: ({params}) => fetch(`https://bliss-bite-server.vercel.app/requests/${params.email}` ),
+      },
+
     ],
   },
 ]);

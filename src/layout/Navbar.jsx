@@ -98,13 +98,22 @@ const Navbar = () => {
               </a>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-2 z-[20] p-2 bg-[#f3f0ec] shadow  rounded-box w-36"
+                className="menu menu-sm dropdown-content mt-2 z-[20] p-2 bg-[#f3f0ec] shadow  rounded-box w-44"
               >
                 <li className="p-2">
                   <button className="btn btn-ghost text-base font-medium text-black">
                     {" "}
                     <Link to={`/user-profile/${user.displayName}`}>
                       My Profile
+                    </Link>
+                  </button>
+                  <hr></hr>
+                </li>
+                <li className="p-2">
+                  <button className="btn btn-ghost text-base font-medium text-black">
+                    {" "}
+                    <Link to={`/requests/${user.email}`}>
+                      Food Requests 
                     </Link>
                   </button>
                   <hr></hr>
