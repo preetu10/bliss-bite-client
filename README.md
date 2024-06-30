@@ -10,6 +10,8 @@ BlissBite is a community-driven platform dedicated to reducing food waste and pr
 - **Customize Own Experience**: Flexibility to change layouts and personalize browsing experience can be another feature for our users.
 - **Manage Own Donations**:  Users can post new food donations, update details, and remove items as needed—all by only logging in to their account.
 
-
+## Server Side Github Link
+- https://github.com/preetu10/bliss-bite-server
+  
 ## Live Site Link
 - https://bliss-bite.web.app/
