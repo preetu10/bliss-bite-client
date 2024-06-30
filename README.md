@@ -11,8 +11,5 @@ BlissBite is a community-driven platform dedicated to reducing food waste and pr
 - **Manage Own Donations**:  Users can post new food donations, update details, and remove items as needed—all by only logging in to their account.
 
 
-## Category:
-- assignment_category_0007(Food Sharing and Surplus Reduction)
-
 ## Live Site Link
 - https://bliss-bite.web.app/
