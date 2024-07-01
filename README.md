@@ -12,6 +12,15 @@ BlissBite is a community-driven platform dedicated to reducing food waste and pr
 
 ## Server Side Github Link
 - https://github.com/preetu10/bliss-bite-server
+
+## Used Tools
+
+- React JS
+- Tailwind CSS
+- Express
+- Firebase
+- MongoDB
+  
   
 ## Live Site Link
 - https://bliss-bite.web.app/
